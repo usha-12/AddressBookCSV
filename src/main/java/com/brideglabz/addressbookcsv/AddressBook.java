@@ -14,7 +14,7 @@ public class AddressBook {
     static List<Contacts> searchByState;
     static HashMap<String, List<Contacts>> dictionaryCity = new HashMap<>(); //uc 9 dictionary
     static HashMap<String, List<Contacts>> dictionaryState = new HashMap<>();
-    public void uc1_CreatingContact() {
+    public void creatingContact() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the contact details");
         System.out.println("Enter the first name");

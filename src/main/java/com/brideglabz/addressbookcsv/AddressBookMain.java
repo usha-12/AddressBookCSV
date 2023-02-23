@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class AddressBookMain extends AddressBook{
     static int option;
     CSVOperation csvOperation = new CSVOperation();
+    JsonOperations jsonOperations = new JsonOperations();
     public void menu() throws IOException, CsvRequiredFieldEmptyException, CsvDataTypeMismatchException {
         AddressBookMain addressBook = new AddressBookMain();
         Scanner sc = new Scanner(System.in);
@@ -18,7 +19,7 @@ public class AddressBookMain extends AddressBook{
         option = sc.nextInt();
         switch(option) {
             case 1:
-                addressBook.uc1_CreatingContact();
+                addressBook.creatingContact();
                 addressBook.uc2_addingContacts();
                 addressBook.menu();
                 break;
@@ -135,11 +136,20 @@ public class AddressBookMain extends AddressBook{
                 menu();
                 break;
             case 13:
+                jsonOperations.writeOnJson(contacts);
+                menu();
+                break;
+            case 14:
+                jsonOperations.readFromJso();
+                menu();
+                break;
+            case 15:
                 System.exit(0);
             default:
                 System.out.println("Invalid option");
         }
     }
+
     public static void main(String[] args) throws IOException, CsvRequiredFieldEmptyException, CsvDataTypeMismatchException {
         System.out.println("Welcome to day 9 address book program");
         AddressBookMain main = new AddressBookMain();
