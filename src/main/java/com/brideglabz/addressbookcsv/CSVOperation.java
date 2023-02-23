@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Scanner;
 public class CSVOperation {
     File file2 = new File("C:\\Users\\User\\Desktop\\243-rfp\\AddressBookCSV\\src\\main\\java\\com\\brideglabz\\addressbookcsv\\AddressBook.csv");
+
     public void csvWriter(List<Contacts> contacts) throws IOException, CsvRequiredFieldEmptyException, CsvDataTypeMismatchException {
         FileWriter fileWriter = new FileWriter(file2);
         // Create Mapping Strategy to arrange the

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12ec497c-0342-40fe-b196-512424c87435" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBookMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/JsonOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/AddressBookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/CSVOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/CSVOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/addressbookcsv/Contacts.java" afterDir="false" />
     </list>
@@ -31,6 +32,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2M9KOjEe35O0jB2DY3h0dn7lorm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
